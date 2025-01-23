@@ -1,0 +1,59 @@
+.section-heading { font-weight: bold; font-size: 1.5rem; margin-bottom: 1rem; }
+
+.feature-card { text-align: center; padding: 1rem; border: 1px solid #ddd; border-radius: 0.5rem; }
+
+.feature-card img { max-width: 50px; margin-bottom: 1rem; }
+
+.advantages-card { padding: 1.5rem; border: 1px solid #ddd; border-radius: 0.5rem; text-align: center; }
+
+.footer-link { text-decoration: none; color: #555; }
+
+.footer-link:hover { text-decoration: underline; }
+
+.comand{padding-top: 30px; margin-top: 30px;}
+
+.p{font-size: 140%;}
+
+.substrate{
+    width: 2000px;
+}
+
+figure.sixteen-nine-img {
+    width: 100%;
+    height: 530px;
+    overflow: hidden;
+    margin: 0;
+    padding-top: 56.25%;
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    background: linear-gradient(288.75deg, #595959 2.2%, #3C3C3C 78.38%);
+    border-radius: var(--br-xl);
+}
+
+.present{
+    width: 100%;
+    height: 103%;
+}
+
+.icon_header{
+    margin-bottom: 20px;
+}
+
+.icon_text{
+}
+
+.house{
+    margin-right: 20px;
+}
+
+.text_about{
+    
+}
+
+.row{
+    margin-top: 50px;
+    margin-right: 40px;
+    margin-left: 4px;
+}

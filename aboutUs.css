@@ -1,0 +1,265 @@
+.text-style p {
+    color: var(--accent);
+}
+
+.servises-block h1 {
+    margin-left: 30px;
+    margin-bottom: 0;
+}
+
+.button-selection {
+    width: 270px;
+    height: 50px;
+
+    margin-left: 15px;
+    margin-top: 15px;
+    padding-left: 15px;
+
+    border-radius: var(--br-md);
+    border: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    transition: 0.3s all;
+
+    background: none;
+}
+
+.button-selection svg {
+    margin-right: 10px;
+}
+
+.button-selection:active svg>path {
+    fill: white;
+}
+
+.button-selection:hover {
+    background-color: #EBF5FE;
+}
+
+.button-selection:active {
+    background: #479FF8;
+}
+
+.button-selection p {
+    transition: 0.3s all;
+    font-size: var(--font-md);
+}
+
+.button-selection:active p {
+    color: white;
+    fill: white;
+}
+
+.service-wrapper {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.servises-block {
+    width: 308px;
+    height: 200px;
+    border-radius: var(--br-xl);
+    top: 120px;
+    position: sticky;
+    background: var(--main);
+}
+
+.aboutCompany {
+    width: 982px;
+    margin-left: var(--m-5xl);
+}
+
+.aboutCompany p {
+    color: var(--main-text);
+}
+
+.icon-border {
+    border-radius: var(--br-md);
+}
+
+.under-header {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    align-items: center;
+}
+
+figure.sixteen-nine-img {
+    width: 105%;
+    height: 530px;
+    overflow: hidden;
+    margin: 0;
+    padding-top: 56.25%;
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    background: linear-gradient(288.75deg, #595959 2.2%, #3C3C3C 78.38%);
+    border-radius: var(--br-xl);
+}
+
+figure.sixteen-nine-img img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+}
+
+.employee_avatar {
+    width: 256px;
+    height: 256px;
+
+    background: linear-gradient(288.75deg, #595959 2.2%, #3C3C3C 78.38%);
+    border-radius: var(--br-xl);
+
+    overflow: hidden;
+}
+
+.employees{
+    gap: 42px;
+}
+
+.w-100{
+    width: 100%;
+}
+.substrate{
+    width: 900px;
+    height: 150px;
+    border-radius: 15px;
+
+    background-color: var(--main);
+}
+.substrate-text{
+    margin-left: 25px;
+}
+.adaptive-img-none{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+@media screen and (max-width: 1340px) {
+    .aboutCompany {
+        width: 738px;
+    }
+    .substrate{
+        width: 550px;
+    }
+    .employee_avatar {
+        width: 218px;
+        height: 218px;
+        display: flex;
+        justify-content: center;
+    }
+
+}
+@media screen and (max-width: 1100px) {
+    .aboutCompany {
+        width: 550px;
+    }
+    .substrate{
+        width: 550px;
+        position: absolute;
+        z-index: 1;
+    }
+    .adaptive-img-none{
+        width: 500px;
+    }
+    .employees{
+        overflow-x: auto;
+    }
+}
+@media screen and (max-width: 992px) {
+    .aboutCompany {
+        width: 400px;
+        margin-left: 0;
+    }
+    .servises-block{
+        width: 100%;
+        height: 94px;
+        margin-bottom: 25px;
+        
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: nowrap;
+        
+        position: static;
+        
+        overflow: auto;
+    }
+    .substrate{
+        width: 600px;
+        height: 200px;
+    }
+    .adaptive-img-none{
+        position: absolute;
+        right: 0;
+        width: 420px;
+    }
+    .service-wrapper{
+        flex-direction: column;
+    }
+    .aboutCompany {
+        width: 100%;
+        margin-left: 0;
+    }
+    .servises-block button {
+        flex-shrink: 0;
+    }
+    .servises-block h1 {
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .servises-block h1 {
+        margin-bottom: 0;
+    }
+    .new-font-size{
+        font-size: var(--font-rt);
+    }
+    .adaptive-img-none{
+        display: none;
+    }
+    .servises-block{
+        width: 100%;
+        height: 94px;
+        margin-bottom: 25px;
+        
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: nowrap;
+        
+        position: static;
+        
+        overflow: auto;
+    }
+
+    .service-wrapper{
+        flex-direction: column;
+    }
+    .aboutCompany{
+        width: 100%;
+        margin-left: 0;
+    }
+    .employees{
+        overflow-x: scroll;
+    }
+    .substrate{
+        background: none;
+        width: 100%;
+    }
+    .under-header {
+        height: 150px;
+        margin-top: 25px;
+        margin-bottom: 50px;
+        color: #EBF5FE;
+        background: linear-gradient(to left, #479FF8, #0081FF);
+        border-radius: 15px;
+    }
+}
+
